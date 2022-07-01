@@ -5,7 +5,7 @@ import Seo from './Seo'
 const Layout = ({ children }) => {
   return (
     <div>
-      <Seo />
+      <Seo lang={'en'}/>
       <Header />
       <main className='grid gap-5 grid-cols-1 sm:grid-cols-[1fr_1fr] grid-rows-[auto_auto_auto_30rem] sm:grid-rows-[auto_auto_0.2fr] mx-4'>
         {children}

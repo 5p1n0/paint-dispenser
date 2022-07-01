@@ -1,10 +1,12 @@
 import * as React from 'react'
 import { Helmet } from 'react-helmet'
 
-const Seo = () => {
+const Seo = (lang) => {
   return (
     <Helmet
-      htmlAttributes={'en'}
+      htmlAttributes={
+        lang
+      }
       title={'Homepage | Paint Dispenser'}
     >
     </Helmet>
