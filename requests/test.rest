@@ -1,0 +1,2 @@
+GET http://ccms.apps.nephila.tech/api/v1/formulas/?product=%20&color_card=%20&color=%20
+Content-Type: application/json

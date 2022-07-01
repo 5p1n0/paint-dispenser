@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-[#F6F5F3]
+}
+
+.card {
+  @apply h-52 lg:h-56 w-32 lg:w-40 p-4 rounded-md flex gap-4 flex-col justify-center items-center
+}
+
+.color-card {
+  @apply h-16 sm:h-20 w-52 sm:w-60 border-solid border-2 rounded-md flex p-2 sm:pl-4 gap-3 justify-start items-center
+}
+
+.serve-btn {
+  @apply flex items-center disabled:opacity-30 gap-2 text-white font-medium rounded-lg text-sm px-3 md:px-4 py-2 md:py-3 focus:outline-none focus:ring-4
+}

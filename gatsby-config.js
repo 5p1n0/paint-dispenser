@@ -3,5 +3,10 @@ module.exports = {
     title: `paint-dispenser`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-postcss",
+    `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
 }
