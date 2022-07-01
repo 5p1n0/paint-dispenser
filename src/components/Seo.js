@@ -3,9 +3,10 @@ import { Helmet } from 'react-helmet'
 
 const Seo = () => {
   return (
-    <Helmet>
+    <Helmet
       htmlAttributes={'en'}
       title={'Homepage | Paint Dispenser'}
+    >
     </Helmet>
   )
 
